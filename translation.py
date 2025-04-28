@@ -15,17 +15,17 @@ class INLINE:
     START_BTN = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(TEXT.DEVELOPER, url=f"tg://user?id={OWNER.ID}"),
+                InlineKeyboardButton(TEXT.DEVELOPER, url="https://t.me/Indian_MV_Admin_Bot"),
             ],
             [
                 InlineKeyboardButton(
-                    TEXT.UPDATES_CHANNEL, url="https://t.me/Private_Bots"
+                    TEXT.UPDATES_CHANNEL, url="https://t.me/Indian_MV"
                 ),
             ],
             [
                 InlineKeyboardButton(
                     TEXT.SOURCE_CODE,
-                    url="https://github.com/prime-hritu/Forward-Tag-Remover",
+                    url="https://t.me/Indian_MV_Admin_Bot",
                 ),
             ],
         ]
